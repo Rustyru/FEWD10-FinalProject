@@ -1,175 +1,187 @@
     /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-
-/*
+    /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
-
-/* ==========================================================================
+    /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
+    
+    html {
+        color: #222;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
+    
+    ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+    /*
  * A better looking default horizontal rule
  */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-/*
+    
+    audio,
+    canvas,
+    iframe,
+    img,
+    svg,
+    video {
+        vertical-align: middle;
+    }
+    /*
  * Remove default fieldset styles.
  */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
+    
+    fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    /*
  * Allow only vertical resizing of textareas.
  */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
+    
+    textarea {
+        resize: vertical;
+    }
+    /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
+    
+    .browserupgrade {
+        margin: 0.2em 0;
+        background: #ccc;
+        color: #000;
+        padding: 0.2em 0;
+    }
+    /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-body {
-    max-width: 960px;
-    margin: 0 auto;
-}
-.clear{
-    clear:both;
-}
-h1{
-    float: left; /*pops the nav ul up beside the h1*/
-    border: solid black;
-    color: white;
-}
-header nav {
-    float: right;
-}
-
-header nav li {
-    display: inline-block;
-    padding: 0 1%;
-}
-header nav li a:hover {
     
-}
-.hamburger {
-    display: none;
-}
-/* apply a natural box layout model to all elements, but allowing components to change 
-http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-
-html {
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-nav{
-    border: solid black;
-}
-.onethird{
-    width: 33%;
-    border: solid black;
-    float: left;
-    padding: 1%;
-}
-.twothirds{
-    width: 67%;
-    border: solid black;
-    float:left;
-    padding: 1%;
-}
-.wrapper{
-    background-image: url(../img/vegetable_basket.jpg);
-    height: 100px;
-}
-@media only screen and (max-width: 768px) {
-    header nav ul {
+    a {
+        text-decoration: none;
+        /*NO underlines*/
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .banner {
+        background-image: url(../img/vegetable_basket.jpg);
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .clear {
+        clear: both;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        height: 60px;
+        width: 100%;
+    }
+    h1 {
+        float: left;
+        /*pops the nav ul up beside the h1*/
+        border: solid black;
+        color: white;
+    }
+    header nav {
+        /* stops the LIs wrapping around*/
+        width: 80%;
+    }
+    header nav li {
+        display: inline-block;
+        padding: 0 1%;
+    }
+    header nav li a:hover {}
+    .hamburger {
         display: none;
     }
-    .hamburger {
-        display: inline-block;
-        color: white;
-        padding: 20px;
-        background-color: black;
+    /* apply a natural box layout model to all elements, but allowing components to change 
+http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    
+    html {
+        box-sizing: border-box;
     }
-}
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    .lime {
+        background: #a4c400;
+    }
+    .cream {
+        background: #F5D76E;
+    }
+    nav {
+        border: solid black;
+    }
+    .onethird {
+        width: 33%;
+        border: solid black;
+        float: left;
+        padding: 1%;
+    }
+    .twothirds {
+        width: 67%;
+        border: solid black;
+        float: left;
+        padding: 1%;
+    }
+    .wrapper a {
+        color: white;
+    }
+    @media only screen and (max-width: 768px) {
+        header nav ul {
+            display: none;
+        }
+        .hamburger {
+            display: inline-block;
+            color: white;
+            padding: 20px;
+        }
+        header nav li {
+            display: block;
+        }
+    }
     /* ==========================================================================
    Helper classes
    ========================================================================== */
     /*
  * Hide visually and from screen readers
  */
+    
     .hidden {
         display: none !important;
     }
@@ -177,6 +189,7 @@ nav{
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+    
     .visuallyhidden {
         border: 0;
         clip: rect(0 0 0 0);
@@ -192,6 +205,7 @@ nav{
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+    
     .visuallyhidden.focusable:active,
     .visuallyhidden.focusable:focus {
         clip: auto;
@@ -204,6 +218,7 @@ nav{
     /*
  * Hide visually and from screen readers, but maintain layout
  */
+    
     .invisible {
         visibility: hidden;
     }
@@ -218,6 +233,7 @@ nav{
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+    
     .clearfix:before,
     .clearfix:after {
         content: " ";
@@ -233,6 +249,7 @@ nav{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+    
     @media only screen and (min-width: 35em) {
         /* Style adjustments for viewports that meet the condition */
     }
@@ -247,6 +264,7 @@ nav{
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+    
     @media print {
         *,
         *:before,

@@ -16,48 +16,67 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
+<body class="cream">
+    <!--restrict width to control box layout but allow body background to be full width-->
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <!-- Add your site or application content here -->
     <header>
-        <div class="wrapper .clearfix">
+        <div class="banner">
             <h1><a href="index.html">Eat Good</a></h1>
-            <nav>
-                <div class="hamburger">&#9776;</div>
-                <ul>
-                    <li><a href="404.html">Fresh, Local Seasonal</a></li>
-                    <li><a href="404.html">Food Now</a></li>
-                    <li><a href="404.html">Food Groups</a></li>
-                    <li><a href="404.html">Shopping</a></li>
-                    <li><a href="404.html">Eating</a></li>
-                    <li><a href="404.html">About</a></li>
-                    <li><a href="404.html">Contact</a></li>
-                </ul>
-            </nav>
+        </div>
+        <!-- full width colour band-->
+        <div class="wrapper clearfix lime">
+            <!-- limited width content-->
+            <div class="container">
+                <!--drop the nav bar under the EatGood banner-->
+                <nav class="clear">
+                    <div class="hamburger lime">&#9776;</div>
+                    <ul>
+                        <li><a href="404.html">Fresh, Local Seasonal</a></li>
+                        <li><a href="404.html">Food Now</a></li>
+                        <li><a href="404.html">Food Groups</a></li>
+                        <li><a href="404.html">Shopping</a></li>
+                        <li><a href="404.html">Eating</a></li>
+                        <li><a href="404.html">About</a></li>
+                        <li><a href="404.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main class="clear">
-        <div class="row">
-            <div class="twothirds">
-            <p>Site Purpose Statement</p>
+    <div class="container">
+        <main class="clear">
+            <div class="row">
+                <div class="twothirds">
+                    <p>Site Purpose Statement</p>
+                </div>
+                <div class="onethird">
+                    <ul>
+                        <li><a href="404.html">Fresh, Local Seasonal</a></li>
+                        <li><a href="404.html">Food Now</a></li>
+                        <li><a href="404.html">Food Groups</a></li>
+                        <li><a href="404.html">Shopping</a></li>
+                        <li><a href="404.html">Eating</a></li>
+                        <li><a href="404.html">About</a></li>
+                        <li><a href="404.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="onethird">
-                <ul>
-                    <li><a href="404.html">Fresh, Local Seasonal</a></li>
-                    <li><a href="404.html">Food Now</a></li>
-                    <li><a href="404.html">Food Groups</a></li>
-                    <li><a href="404.html">Shopping</a></li>
-                    <li><a href="404.html">Eating</a></li>
-                    <li><a href="404.html">About</a></li>
-                    <li><a href="404.html">Contact</a></li>
-                </ul>
+        </main>
+    </div>
+    <footer class="clear">
+        <!-- full width colour band-->
+        <div class="wrapper clearfix lime">
+            <!-- limited width content-->
+            <div class="container">
+                THis is the footer container
             </div>
         </div>
-    </main>
+    </footer>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
