@@ -89,13 +89,17 @@
         text-decoration: none;
         /*NO underlines*/
     }
+    .attrib {
+        font-size: 10px;
+        padding: 1%;
+    }
     .container {
         max-width: 960px;
         margin: 0 auto;
     }
     .banner {
         background-image: url(../img/vegetable_basket.jpg);
-        height: 150px;
+        height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -103,25 +107,40 @@
     .clear {
         clear: both;
     }
+    .eating {
+        background-image: url(../img/eating.jpeg);
+    }
+    .fls {
+        background-image: url(../img/produce_market.jpg);
+    }
+    .food {
+        background-image: url(../img/food.jpeg);
+    }
+    .foodnow {
+        background-image: url(../img/barbque_cooking.jpg);
+    }
+    .foodgroups {
+        background-image: url(../img/foodgroups.jpeg);
+    }
     footer {
         position: fixed;
         bottom: 0;
-        height: 60px;
+        height: 50px;
         width: 100%;
     }
     h1 {
-        float: left;
         /*pops the nav ul up beside the h1*/
+        float: left;
         border: solid black;
         color: white;
     }
     header nav {
         /* stops the LIs wrapping around*/
-        width: 80%;
+        width: 100%;
     }
     header nav li {
         display: inline-block;
-        padding: 0 1%;
+        padding: 0 2%;
     }
     header nav li a:hover {}
     .hamburger {
@@ -133,6 +152,11 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
     html {
         box-sizing: border-box;
     }
+    .images {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     *,
     *:before,
     *:after {
@@ -142,16 +166,37 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
         background: #a4c400;
     }
     .cream {
-        background: #F5D76E;
+        background: white;
     }
+    main {
+        /* SOmeting to scrollup under the footer */
+        padding-bottom: 600px;
+    }
+    main a {
+        font-style: italic;
+        font-size: 1.1em;
+        color: #a4c400;
+    }
+    main a:hover {}
     nav {
         border: solid black;
     }
+    .row .onethird a {
+        color: white;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .statement {
+        padding: 1% 25% 1% 25%;
+    }
     .onethird {
-        width: 33%;
+        width: 31%;
         border: solid black;
         float: left;
-        padding: 1%;
+        padding: 5%;
+        margin: 1%
+    }
+    .shopping {
+        background-image: url(../img/shopping.jpeg);
     }
     .twothirds {
         width: 67%;
