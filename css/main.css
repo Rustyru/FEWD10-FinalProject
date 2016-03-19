@@ -229,6 +229,9 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
         color: white;
     }
     @media only screen and (max-width: 768px) {
+        .banner {
+            background-image: url(../img/food.jpeg);
+        }
         header nav ul {
             display: none;
         }
