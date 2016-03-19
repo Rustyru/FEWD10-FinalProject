@@ -229,8 +229,7 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
     }
     @media only screen and (max-width: 768px) {
         /*smaller image for ios*/
-        .banner {
-            background-image: url(../img/food.jpeg);
+        .banner { url(../img/vegetable_basket__resize.jpg);
         }
         header nav ul {
             display: none;
