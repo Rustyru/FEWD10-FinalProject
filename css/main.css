@@ -221,9 +221,8 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
     }
     .twothirds {
         width: 67%;
-        border: solid black;
         float: left;
-        padding: 1%;
+        padding: 5%;
     }
     .wrapper a {
         color: white;
