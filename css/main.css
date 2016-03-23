@@ -187,6 +187,15 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
     .cream {
         background: white;
     }
+    input {
+        background-color: transparent;
+        border: 0px solid;
+        height: 50px;
+        width: 100%;
+        color: #CCC;
+        border-bottom: solid;
+        padding: 1%;
+    }
     main {
         /* Something to scrollup under the footer */
         padding-bottom: 600px;
@@ -229,7 +238,7 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
     }
     @media only screen and (max-width: 768px) {
         /*smaller image for ios*/
-        .banner { 
+        .banner {
             background-image: url(../img/vegetable_basket__resize.jpg);
         }
         header nav ul {
